@@ -1,0 +1,62 @@
+.jumbotron {
+    background: url("Images/la.jpg") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    border-radius: 60px;
+}
+
+.display-4 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.navigation {
+    position: fixed;
+    background-color: transparent;
+    float: left;
+    padding: 3vh;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 18px;
+    margin: 0px;
+}
+
+.inline-block ul li{
+    margin-left: 5vw;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+a:link { text-decoration: none;
+    color: black; 
+}
+a:visited { text-decoration: none; 
+    color: black;}
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #00ade6;
+    text-decoration-thickness: 5px;
+    }
+a:active { text-decoration: none; 
+}
